@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+    <img src="./assets/img/epicode_logo.png" alt="Epicode logo">
+    </header>
+    <main>
+        <h1>Welcome to <span>your exam</span></h1>
+        <h2>Instructions</h2>
+        <p>We don't expect most engineers to know the answer to all of these <span class="break">questions, so don't worry if you're unsure of a few of them.</span>
+        </p>
+        <div class="mt-2">
+            <ul>
+                <li>Each question is <b>timed</b> and can only be <b>answered once.</b></li>
+                <li>Changing browser tab or opening other windows will <b>invalidate the question.</b></li>
+                <li>This exam will take approx. <b>0-5 minutes.</b></li>
+            </ul>
+        </div>
+        <form class="mt-2 checkBox" action="./questions.html">
+            <div>
+                <input type="checkbox" id="check" name="check" required>
+                <label for="check">I promise to answer myself whitout help from anyone</label>
+            </div>
+            <button class="proceed" type="submit">Proceed</button>
+        </form>
+    </main>
+</body>
+
+</html>
